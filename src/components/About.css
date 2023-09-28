@@ -1,0 +1,33 @@
+.about {
+  /* height: 70vh; */
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+}
+.title {
+  font-family: Darker Grotesque;
+  font-size: 6vw;
+}
+.about-con {
+  display: grid;
+  place-items: center;
+}
+.about-content {
+  width: 70%;
+  border-radius: 1rem;
+  padding: 2rem;
+  border: 1px solid #fefefe;
+  background: rgba(217, 217, 217, 0.2);
+}
+.about-content p {
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (max-width: 480px){
+  .about-content{
+    width: 98%;
+  }
+}

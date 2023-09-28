@@ -1,0 +1,43 @@
+.nav {
+  padding-top: 1rem;
+  width: 100%;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+}
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.nav-links p,
+.menubar p {
+  color: black;
+  font-weight: bold;
+  font-family: "Sanchez", serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-content {
+    height: max-content;
+  }
+  .menulinks {
+    position: absolute;
+    top: 10;
+    right: 0;
+    padding: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    background: rgba(217, 217, 217, 0.8);
+    width: 30%;
+    display: grid;
+  }
+  .menulinks p {
+    font-size: 12px;
+  }
+}

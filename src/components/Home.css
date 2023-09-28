@@ -1,0 +1,39 @@
+.home-con {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: grid;
+  min-height: 92vh;
+  place-items: center;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+.home-text {
+  display: grid;
+}
+.home-text .name {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.titles {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+@media screen and (max-width: 480px) {
+  .home-text .name{
+    font-size: 2rem;
+  }
+  .home-con{
+    min-height: 85vh;
+  }
+}

@@ -1,0 +1,45 @@
+.contacts {
+  /* height: 70vh; */
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+}
+.title {
+  font-family: Darker Grotesque;
+  font-size: 6vw;
+}
+.contact-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.contact-link {
+  height: 90px;
+  width: 90px;
+  border-radius: 0.3rem;
+  border: 1px solid #fefefe;
+  background: rgba(217, 217, 217, 0.2);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.contact-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+}
+.contact-link:hover img {
+  transform: translateY(-10%);
+}
+@media screen and (max-width: 480px){
+  .contacts{
+    min-height: 30vh;
+  }
+  .contact-link{
+    height: 50px;
+    width: 50px;
+  }
+}
