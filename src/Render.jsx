@@ -7,6 +7,7 @@ import Techs from "./components/Techs";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Projectz from "./components/projw";
 
 function Render() {
   return (
@@ -15,9 +16,10 @@ function Render() {
       <Home />
       <About />
       <Techs />
-      <Projects />
+      <Projectz />
       <Contact />
-      <Footer/> 
+      {/* <Projectz /> */}
+      <Footer />
     </div>
   );
 }

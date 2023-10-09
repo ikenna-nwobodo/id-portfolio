@@ -29,50 +29,6 @@ const projects = [
     name: "Website 2",
     image: proj,
   },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 2",
-    image: proj,
-  },
-  {
-    name: "Website 6",
-    image: proj,
-  },
 ];
 
 export default projects;
