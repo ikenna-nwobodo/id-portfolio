@@ -3,10 +3,9 @@ import { useRef } from "react";
 import projects from "../projectlist";
 import "./projw.css";
 
-const Example = () => {
+const Projectz = () => {
   return (
     <div className="proj-con">
-      
       <HorizontalScrollCarousel />
     </div>
   );
@@ -52,7 +51,7 @@ const Card = ({ card }) => {
   );
 };
 
-export default Example;
+export default Projectz;
 
 // const cards = [
 //   {
